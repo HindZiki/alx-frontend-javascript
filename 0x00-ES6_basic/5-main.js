@@ -8,4 +8,3 @@ bob@dylan:~$ npm run dev 5-main.mjs
   'a', 'b', 'c',
   'd', 'H', 'e',
   'l', 'l', 'o'
-]
