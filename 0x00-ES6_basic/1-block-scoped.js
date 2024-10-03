@@ -3,8 +3,9 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;  // Utilisation de const car task2 ne changera pas
 
   if (trueOrFalse) {
-    let task = true;   // Nouvelle déclaration limitée à ce bloc
-    let task2 = false; // Nouvelle déclaration limitée à ce bloc
+    const innerTask = true;   // Nouvelles déclarations avec un nom différent
+    const innerTask2 = false; // Nouvelles déclarations avec un nom différent
+    console.log(innerTask, innerTask2); // Utilisation interne si nécessaire
   }
 
   return [task, task2];  // Renvoie les valeurs en dehors du bloc if
