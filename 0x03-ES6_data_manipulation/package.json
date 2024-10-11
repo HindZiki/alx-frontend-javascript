@@ -1,0 +1,24 @@
+{
+  "name": "0x03-ES6_data_manipulation",
+  "version": "1.0.0",
+  "description": "Un projet pour pratiquer les méthodes de manipulation des données en ES6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "dev": "node 0-main.js"  // Ajoute cette ligne
+  },
+  "keywords": [],
+  "author": "Hind",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "eslint": "^7.0.0",
+    "jest": "^27.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
