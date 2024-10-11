@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Un projet pour pratiquer les méthodes de manipulation des données en ES6.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
