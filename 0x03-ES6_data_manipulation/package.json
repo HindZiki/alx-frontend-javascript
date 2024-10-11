@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "dev": "node 0-main.js"  // Ajoute cette ligne
+    "dev": "node 0-main.js"
   },
   "keywords": [],
   "author": "Hind",
